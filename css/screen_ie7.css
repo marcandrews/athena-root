@@ -1,0 +1,36 @@
+/* Redirection page */
+body#redirector {
+}
+body#redirector #wrapper {
+}
+body#redirector #content {
+	position:relative;
+	top:40%;
+}
+body#redirector #margin-top {
+	display:none;
+	position:relative;
+	top:0;
+	left:0;
+}
+body#redirector #margin-bottom {
+	display:none;
+	position:relative;
+	top:100%;
+	left:0;
+	margin-top:-30px;
+}
+
+/* Main Style Sheet for jQuery Calendar */
+/* ___________ IE6 IFRAME FIX ________ */
+.calendar_cover {
+    display: none; /*sorry for IE5*/
+    display/**/: block; /*sorry for IE5*/
+    position: absolute; /*must have*/
+    z-index: -1; /*must have*/
+    filter: mask(); /*must have*/
+    top: -4px; /*must have*/
+    left: -4px; /*must have*/
+    width: 193px; /*must have to match width and borders*/
+    height: 200px; /*must have to match maximum height*/ 
+}

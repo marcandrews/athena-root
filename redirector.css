@@ -1,0 +1,13 @@
+#wrapper {
+	background-position: 97% 50%;
+}
+#container {
+	position:absolute;
+	top:40%;
+	bottom:50%;
+}
+#margin-bottom {
+	position:absolute;
+	top:100%;
+	margin-top:-15px;
+}

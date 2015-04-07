@@ -1,0 +1,64 @@
+#wrapper {
+	height:100%;
+	min-height:auto;
+}
+#content {
+	margin:0 0 0 10px;
+}
+#nav-subs {
+	margin:35px 0 35px -15px;
+}
+
+
+
+
+/* Redirection page */
+body#redirector {
+display: table;
+height: 100%;
+position: relative;
+overflow: hidden;
+margin:0 auto;
+}
+body#redirector #wrapper {
+top: 50%;
+display: table-cell;
+vertical-align: middle;
+background-position: center right;
+}
+body#redirector #content {
+position: relative;
+top: -50%
+}
+body#redirector #margin-top {
+display:none;
+position:absolute;
+top:0;
+}
+body#redirector #margin-bottom {
+display:none;
+position:absolute;
+top:100%;
+margin-top:-15px;
+}
+
+
+
+
+
+
+
+
+/* Main Style Sheet for jQuery Calendar */
+/* ___________ IE6 IFRAME FIX ________ */
+.calendar_cover {
+    display: none; /*sorry for IE5*/
+    display/**/: block; /*sorry for IE5*/
+    position: absolute; /*must have*/
+    z-index: -1; /*must have*/
+    filter: mask(); /*must have*/
+    top: -4px; /*must have*/
+    left: -4px; /*must have*/
+    width: 193px; /*must have to match width and borders*/
+    height: 200px; /*must have to match maximum height*/ 
+}

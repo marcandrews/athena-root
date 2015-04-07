@@ -1,0 +1,232 @@
+.no_print {
+display:none;
+}
+
+html {
+font-family:Tahoma, Verdana, Arial, sans-serif;
+font-size:10pt;
+background:none;
+}
+
+body {
+width:100%;
+padding:0;
+margin:0;
+border:none;
+background:none;
+background-color:white;
+}
+
+fieldset {
+margin:0;
+padding:0;
+border:none;
+}
+
+thead {
+border-bottom:1px solid black;
+}
+
+tfoot {
+border-bottom:1px solid black;
+}
+
+th {
+text-align:left;
+}
+
+img {
+border:none;
+}
+
+#nav-toplevel, #nav-subs, #info-site {
+display:none;
+}
+
+a:link, a:visited {
+color:black;
+background:transparent;
+text-decoration:underline;
+}
+
+#content a:link:after, #content a:visited:after {
+content: " (" attr(href) ") ";
+font-style:italic;
+}
+
+#content a[href^="/"]:after {
+content: " (http://athena.sus.mcgill.ca" attr(href) ") ";
+}
+
+#content a[href*="#"]:after {
+content: "";
+}
+
+#content a[href*="#"] {
+text-decoration:none
+}
+
+#content abbr:after {
+content: " (" attr(title) ") ";
+font-variant:normal;
+}
+
+.small-caps {
+font-variant:small-caps;
+}
+
+#banner {
+border:none;
+background:none;
+}
+
+#banner #title {
+margin:0 0 0.5em 0;
+padding:0;
+color:black;
+border-bottom:1px solid black;
+text-align:left;
+font:italic 48pt 'Times New Roman', serif;;
+}
+
+#banner #subtitle {
+display:none;
+}
+
+#banner:before {
+font:italic 12pt "Times New Roman", serif;
+content: "This document was reproduced from ";
+}
+
+#content {
+height:100%;
+}
+
+#breadcrumb {
+display:none;
+}
+
+#content {
+width:100%;
+padding:0;
+}
+
+#content p, #content .psuedo_p {
+font-weight:normal;
+line-height:1.4em;
+padding:0;
+margin:0 0 1.1em 0;
+}
+#content .psuedo_p p {
+margin-bottom:0.55em;
+}
+
+h1,h2,h3 {
+margin:2.2em 0 0.5em 0;
+padding:0;
+font:italic bold 16pt 'Times New Roman', serif;;
+}
+
+h1 {
+margin:0 0 0.75em 0;
+border-bottom:1px dotted black;
+}
+
+h1:first-letter {
+padding:0;
+font-size:1.7em !important;
+font-size:1.4em;
+text-transform:uppercase;
+color:black;
+}
+
+h2 {
+font-size: 14pt;
+}
+
+h3 {
+font-size: 12pt;
+}
+
+h2:first-letter ,h3:first-letter {
+float:none;
+font-size:140%;
+text-transform:uppercase;
+}
+
+#pickup_list table {
+border-collapse:collapse;
+}
+
+#pickup_list caption {
+font-weight:bold;
+text-align:left;
+}
+
+#pickup_list thead {
+}
+
+#pickup_list th {
+text-align:left;
+vertical-align:bottom;
+}
+
+#pickup_list th, #pickup_list td {
+padding:2px;
+}
+
+#pickup_list .col_name {
+width:auto;
+}
+
+#pickup_list .col_mcgill_id {
+width:50px;
+}
+
+#pickup_list .col_n {
+width:20px;
+text-align:center;
+}
+
+#pickup_list tbody tr {
+border-top:1px solid #D3D3D3;
+}
+
+#pickup_list #reminder {
+color:#FFA500;
+text-align:left;
+}
+
+.navigation {
+display:none;
+}
+
+
+#content form fieldset#controls {
+display:none;
+}
+
+.screen {
+display:none;
+}
+
+
+#footer {
+margin-top:2em;
+border-top:1px solid black;
+text-align:right;
+font-size:75%;
+}
+
+#standards {
+display:none;
+}
+
+code, pre, kbd, samp {
+display:block;
+padding:10px;
+border-left:10px solid #D3D3D3;
+font-size:11pt;
+font-family: monaco, "Courier new", courier, monospace;
+color:black;
+}
